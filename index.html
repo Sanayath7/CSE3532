@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MD. Sanayath Fahim - Portfolio">
+    <title>MD. Sanayath Fahim | CSE Student</title>
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Sanayath</span>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Sanayath Fahim</span></h1>
+                <p class="tagline">Crafting digital experiences from Chattogram, Bangladesh</p>
+                <p class="intro">
+                    I'm a passionate Computer Science student who enjoys building websites and solving problems with code.<br>
+                    Currently learning full-stack development and always excited to work on new projects.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+                <div class="quote">
+                    “Code is the language of the future. I speak it fluently.”
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://i.pinimg.com/originals/4e/38/5d/4e385d516626c24cfc44254b3417f26d.jpg" 
+                         alt="Sanayath Fahim" class="profile-pic">
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2><i class="fas fa-user-circle"></i> About Me</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    My name is MD. Sanayath Fahim. I'm currently in the 5th semester of Computer Science & Engineering 
+                    at International Islamic University Chittagong (IIUC).
+                </p>
+                <p>
+                    I really enjoy web development because it lets me create things that people can actually use. 
+                    I'm always trying to learn new technologies and improve my skills through personal projects.
+                </p>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>2</h3>
+                    <p>Years Coding</p>
+                </div>
+                <div class="stat">
+                    <h3>12+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>∞</h3>
+                    <p>Cups of Tea Consumed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+        <div class="section-header">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="edu-header">
+                    <i class="fas fa-university"></i>
+                    <span class="edu-year">2026 - Present</span>
+                </div>
+                <h3>BSc in Computer Science & Engineering (CSE)</h3>
+                <p class="edu-institution">International Islamic University Chittagong (IIUC)</p>
+                <p class="edu-details">5th Semester • Department of CSE</p>
+            </div>
+
+            <div class="education-card">
+                <div class="edu-header">
+                    <i class="fas fa-school"></i>
+                    <span class="edu-year">2022</span>
+                </div>
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p class="edu-institution">Science Group</p>
+                <p class="edu-details">GPA: 4.67 • Passing Year: 2022</p>
+            </div>
+
+            <div class="education-card">
+                <div class="edu-header">
+                    <i class="fas fa-school"></i>
+                    <span class="edu-year">2020</span>
+                </div>
+                <h3>Secondary School Certificate (SSC)</h3>
+                <p class="edu-institution">Science Group</p>
+                <p class="edu-details">GPA: 5.00 • Passing Year: 2020</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section bg-alt">
+        <div class="section-header">
+            <h2><i class="fas fa-laptop-code"></i> Featured Projects</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="projects-grid">
+            <article class="project-card">
+                <img src="coffe.jpg" alt="Coffee Shop Recommendation System" class="project-img">
+                <div class="project-info">
+                    <h3>Coffee Shop Expansion System</h3>
+                    <p class="project-desc">
+                        A MySQL-based project that analyzes sales data and recommends the best cities in Bangladesh 
+                        for opening new coffee shops.
+                    </p>
+                    <div class="project-tags">
+                        <span>MySQL</span>
+                    </div>
+                    <a href="https://github.com/Sanayath7/DBMS-Project-City-Wise-Coffee-Sales-and-Expansion-System" 
+                       class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="project-card">
+                <img src="iiuc.jpg" alt="Doctor Appointment System" class="project-img">
+                <div class="project-info">
+                    <h3>Doctor Appointment System</h3>
+                    <p class="project-desc">
+                        A Java-based web application for booking doctor appointments and managing patient records.
+                    </p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                    </div>
+                    <a href="https://github.com/Sanayath7/Uni-Course-/tree/Main/Final%20project%20submission%201" 
+                       class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="project-card">
+                <img src="https://img.freepik.com/free-vector/colorful-cartoon-style-teacher-template-student-report-card_1308-159836.jpg?semt=ais_hybrid&w=740&q=80" 
+                     alt="Student Report Card" class="project-img">
+                <div class="project-info">
+                    <h3>Student Report Card Generator</h3>
+                    <p class="project-desc">
+                        A simple C++ program to generate and manage student report cards with marks and grades.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                    </div>
+                    <a href="https://github.com/Sanayath7/student-report-card-cpp" 
+                       class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <h2><i class="fas fa-cogs"></i> Skills & Expertise</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar"><div class="progress" style="width: 73%"></div></div>
+                    <span class="skill-percent">73%</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar"><div class="progress" style="width: 57%"></div></div>
+                    <span class="skill-percent">57%</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Responsive Design</div>
+                    <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Figma / UI Design</div>
+                    <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+                    <span class="skill-percent">85%</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
+                    <li><i class="fas fa-users"></i> Team Collaboration</li>
+                    <li><i class="fas fa-brain"></i> Creative Thinking</li>
+                    <li><i class="fas fa-clock"></i> Time Management</li>
+                    <li><i class="fas fa-comments"></i> Communication</li>
+                    <li><i class="fas fa-sync"></i> Adaptability</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section bg-alt">
+        <div class="section-header">
+            <h2><i class="fas fa-paper-plane"></i> Let's Connect</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Get in touch</h3>
+                <p>I'm always open to discussing new opportunities, projects, or just talking about technology.</p>
+                
+                <div class="contact-details">
+                    <a href="mailto:sanayath@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> sanayath@gmail.com
+                    </a>
+                    <a href="tel:+8801700000000" class="contact-link">
+                        <i class="fas fa-phone"></i> +880 17XXXXXXXX
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/Sanayath7" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+                <p class="form-note">* This is a demo form.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 MD. Sanayath Fahim. Built with ❤️ using HTML & CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
