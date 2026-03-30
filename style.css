@@ -109,13 +109,11 @@ nav {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding: 100px 2rem 0;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
 }
-
 .hero-content {
     display: flex;
     align-items: center;
@@ -458,7 +456,7 @@ nav {
     background: linear-gradient(90deg, #00d4ff, #00ffaa);
     border-radius: 50px;
     position: relative;
-    animation: progressFill 1.8s ease forwards;
+    transition: width 1.5s ease-in-out;
 }
 
 .progress::after {
@@ -471,10 +469,9 @@ nav {
     background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
     animation: shine 3s linear infinite;
 }
-
-@keyframes progressFill {
-    from { width: 0; }
-    to { width: var(--w); }
+@keyframes shine {
+    0% { left: -150%; }
+    100% { left: 150%; }
 }
 
 .skill-percent {
@@ -636,5 +633,50 @@ footer {
     
     .hero-image {
         margin-top: 2rem;
+    }
+}
+/* for MOBILE  */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 100px 1.2rem 50px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .image-wrapper {
+        width: 250px;
+        height: 250px;
+    }
+
+    .section {
+        padding: 80px 1.2rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .skill-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skill-name {
+        width: 100%;
+    }
+
+    .skill-percent {
+        align-self: flex-end;
     }
 }
