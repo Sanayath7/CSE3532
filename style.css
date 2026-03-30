@@ -109,10 +109,10 @@ nav {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 100px 2rem 0;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 120px 2rem 100px; 
 }
 .hero-content {
     display: flex;
@@ -244,7 +244,7 @@ nav {
 /* Scroll Indicator */
 .scroll-indicator {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px; 
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -678,5 +678,10 @@ footer {
 
     .skill-percent {
         align-self: flex-end;
+    }
+}
+@media (max-width: 768px) {
+    .scroll-indicator {
+        display: none; 
     }
 }
