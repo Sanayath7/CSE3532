@@ -747,7 +747,7 @@ footer {
 }
 
   <!-- NAVIGATION mobile -->
-  /* Desktop nav */
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -795,7 +795,7 @@ footer {
     width: 100%;
     flex-direction: column;
     background-color: #333;
-    display: none; /* hide by default */
+    display: none; 
   }
 
   .nav-links li {
@@ -803,7 +803,6 @@ footer {
     padding: 15px 0;
   }
 
-  /* show nav when checkbox is checked */
   .menu-toggle:checked ~ .nav-links {
     display: flex;
   }
